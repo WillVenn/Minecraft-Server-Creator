@@ -23,29 +23,19 @@ label_welcome = Label(text="Welcome to Will's Vanilla
 Minecraft server installer").pack()
 label_warning = Label(text="MAKE SURE YOU HAVE JAVA AND 
 JKD OR OPENJDK INSTALLED", fg="red").pack()
+breakline_label = Label(text="__________________________________________________________________________________________________________").pack()
+#----------------------------------------
+
+#Buttons
 
 #----------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Images
+photo = PhotoImage(file="Images/Minecraftlogo.gif")
+logo = Label(root, image=photo)
+logo.photo = photo
+logo.pack()
+#----------------------------------------
 
 
 
