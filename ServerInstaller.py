@@ -9,7 +9,8 @@ import urllib
 #----------------------------------------
 
 #Functions:
-
+def jarDownload():
+    subprocess.call(['python', 'Downloader.py'])
 #----------------------------------------
 
 root = Tk() #Creates the window called 'Root'
@@ -24,7 +25,7 @@ breakline_label = Label(text="__________________________________________________
 #----------------------------------------
 
 #Buttons
-
+button_download = Button(text="Download server packages", command=jarDownload).pack()
 #----------------------------------------
 
 #Images
