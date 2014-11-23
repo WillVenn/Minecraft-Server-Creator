@@ -26,5 +26,6 @@ while True:
     status = status + chr(8)*(len(status)+1)
     print status,
 
+print "File has downloaded, it will be in your current directory"
 f.close()
 
