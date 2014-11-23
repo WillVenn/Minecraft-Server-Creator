@@ -10,9 +10,9 @@ Dependencies
 To build this example you will need to install the 
 following  packages:
 
-Python2.7
+Python3.4
 
-PyGTK (2.24.0 or higher)
+tkinter (Part of Standard python library)
 
 JDK (Or OpenJDK)
 
