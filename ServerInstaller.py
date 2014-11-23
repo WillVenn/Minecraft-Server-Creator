@@ -10,7 +10,7 @@ import urllib
 
 #Functions:
 def jarDownload():
-    subprocess.call(['python', 'Downloader.py'])
+    subprocess.call(['python2.7', 'Downloader.py'])
 #----------------------------------------
 
 root = Tk() #Creates the window called 'Root'
