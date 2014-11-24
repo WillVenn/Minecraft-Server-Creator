@@ -11,6 +11,7 @@ import urllib
 #Functions:
 def jarDownload():
     subprocess.call(['python2.7', 'Downloader.py'])
+    print ("Downloading server packages...")
 #----------------------------------------
 
 root = Tk() #Creates the window called 'Root'
