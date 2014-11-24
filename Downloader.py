@@ -3,6 +3,7 @@
 #A simple application that downloads the latest minecraft vanilla server packages and files
 
 import urllib2
+import subprocess
 
 url = "https://s3.amazonaws.com/Minecraft.Download/versions/1.8/minecraft_server.1.8.jar"
 
@@ -26,6 +27,7 @@ while True:
     status = status + chr(8)*(len(status)+1)
     print status,
 
-print "File has downloaded, it will be in your current directory"
+##print "File has downloaded, it will be in your current directory"
+subprocess.call(['python', 'DownloadFinished.py'])
 f.close()
 
