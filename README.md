@@ -7,7 +7,7 @@ This is a GUI app for downloading and creating a vanilla Minecraft server
 --------------
 Screenshot
 -------------
-![Screen shot](WillVenn.github.com/Minecraft-Server-Creator/tree/master/Images/MSCscreenshot.png)
+![Screen shot](https://github.com/WillVenn/Minecraft-Server-Creator/blob/master/Images/MSCscreenshot.png)
 
 ---------------
 Dependencies
