@@ -16,42 +16,42 @@ def jarDownload():
 def RAM_ONE():
 	print ("Generating launch scripts for 512mb RAM")
     RAM_ONE = open("launch.sh", "w+")
-    RAM_ONE.write("java -Xmx512M -Xms512M -jar minecraft_server.jar nogui")
+    RAM_ONE.write("java -Xmx512M -Xms512M -jar minecraft_server.1.8.1.jar nogui")
     print ("Generated 512mb server launch scripts")
     RAM_ONE.close()
 
 def RAM_TWO():
 	print ("Generating launch scripts for 1GB RAM")
     RAM_ONE = open("launch.sh", "w+")
-    RAM_ONE.write("java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui")
+    RAM_ONE.write("java -Xmx1024M -Xms1024M -jar minecraft_server.1.8.1.jar nogui")
     print ("Generated 1GB server launch scripts")
     RAM_ONE.close()
 
 def RAM_THREE():
 	print ("Generating launch scripts for 2GB RAM")
     RAM_ONE = open("launch.sh", "w+")
-    RAM_ONE.write("java -Xmx2048 -Xms2048M -jar minecraft_server.jar nogui")
+    RAM_ONE.write("java -Xmx2048M -Xms2048M -jar minecraft_server.1.8.1.jar nogui")
     print ("Generated 2GB server launch scripts")
     RAM_ONE.close()
 
 def RAM_FOUR():
 	print ("Generating launch scripts for 3GB RAM")
     RAM_ONE = open("launch.sh", "w+")
-    RAM_ONE.write("java -Xmx3072  -Xms3072 -jar minecraft_server.jar nogui")
+    RAM_ONE.write("java -Xmx3072M  -Xms3072M -jar minecraft_server.1.8.1.jar nogui")
     print ("Generated 3GB server launch scripts")
     RAM_ONE.close()
 
 def RAM_FIVE():
 	print ("Generating launch scripts for 4GB RAM")
     RAM_ONE = open("launch.sh", "w+")
-    RAM_ONE.write("java -Xmx4096  -Xms4096 -jar minecraft_server.jar nogui")
+    RAM_ONE.write("java -Xmx4096M  -Xms4096M -jar minecraft_server.1.8.1.jar nogui")
     print ("Generated 4GB server launch scripts")
     RAM_ONE.close()
 
 def RAM_SIX():
 	print ("Generating launch scripts for 5GB RAM")
     RAM_ONE = open("launch.sh", "w+")
-    RAM_ONE.write("java -Xmx5120  -Xms5120 -jar minecraft_server.jar nogui")
+    RAM_ONE.write("java -Xmx5120M  -Xms5120M -jar minecraft_server.1.8.1.jar nogui")
     print ("Generated 5GB server launch scripts")
     RAM_ONE.close()
 
