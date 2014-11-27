@@ -10,7 +10,8 @@ import urllib
 
 #Functions:
 def jarDownload():
-	subprocess.call(['python2.7', 'Downloader.py'])
+	##subprocess.call(['python2.7', 'Downloader.py'])
+	subprocess.call(['sh', 'xtermDownload.sh'])
 	print ("Downloading server packages...")
 
 def perm():
