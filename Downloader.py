@@ -28,6 +28,7 @@ while True:
     print status,
 
 ##print "File has downloaded, it will be in your current directory"
-subprocess.call(['python', 'DownloadFinished.py'])
+##subprocess.call(['python', 'DownloadFinished.py'])
+print ("Files have been downloaded in your current working directory please close this terminal window")
 f.close()
 
