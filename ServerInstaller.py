@@ -11,17 +11,17 @@ import urllib
 #Functions:
 def jarDownload():
 	##subprocess.call(['python2.7', 'Downloader.py'])
-	subprocess.call(['sh', 'xtermDownload.sh'])
+	subprocess.call(['sh', 'Extra/xtermDownload.sh'])
 	print ("Downloading server packages...")
 
 def perm():
-	subprocess.call(['sh', 'perm.sh'])
+	subprocess.call(['sh', 'Extra/perm.sh'])
 	##os.popen("perm.sh")
 	print ("Changed permission of launch.sh")
 
 def start():
 	##subprocess.call(['sh', 'launch.sh'])
-	subprocess.call(['sh', 'command.sh'])
+	subprocess.call(['sh', 'Extra/command.sh'])
 	print ("Server started...")
 
 def about():
@@ -35,7 +35,7 @@ def RAM_ONE():
 	RAM_ONE = open("launch.sh", "w+")
 	RAM_ONE.write("java -Xmx512M -Xms512M -jar minecraft_server.1.8.jar nogui")
 	print ("Generated 512mb server launch scripts")
-	subprocess.call(['python', 'ram1done.py'])
+	subprocess.call(['python', 'Extra/ram1done.py'])
 	RAM_ONE.close()
 
 def RAM_TWO():
