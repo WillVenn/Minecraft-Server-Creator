@@ -43,6 +43,7 @@ def RAM_TWO():
 	RAM_ONE = open("launch.sh", "w+")
 	RAM_ONE.write("java -Xmx1024M -Xms1024M -jar minecraft_server.1.8.jar nogui")
 	print ("Generated 1GB server launch scripts")
+	subprocess.call(['python', 'Extra/ram2done.py'])
 	RAM_ONE.close()
 
 def RAM_THREE():
@@ -50,6 +51,7 @@ def RAM_THREE():
 	RAM_ONE = open("launch.sh", "w+")
 	RAM_ONE.write("java -Xmx2048M -Xms2048M -jar minecraft_server.1.8.jar nogui")
 	print ("Generated 2GB server launch scripts")
+	subprocess.call(['python', 'Extra/ram3done.py'])
 	RAM_ONE.close()
 
 def RAM_FOUR():
@@ -57,6 +59,7 @@ def RAM_FOUR():
 	RAM_ONE = open("launch.sh", "w+")
 	RAM_ONE.write("java -Xmx3072M  -Xms3072M -jar minecraft_server.1.8.jar nogui")
 	print ("Generated 3GB server launch scripts")
+	subprocess.call(['python', 'Extra/ram4done.py'])
 	RAM_ONE.close()
 
 def RAM_FIVE():
@@ -64,6 +67,7 @@ def RAM_FIVE():
 	RAM_ONE = open("launch.sh", "w+")
 	RAM_ONE.write("java -Xmx4096M  -Xms4096M -jar minecraft_server.1.8.jar nogui")
 	print ("Generated 4GB server launch scripts")
+	subprocess.call(['python', 'Extra/ram5done.py'])
 	RAM_ONE.close()
 
 def RAM_SIX():
@@ -71,6 +75,7 @@ def RAM_SIX():
 	RAM_ONE = open("launch.sh", "w+")
 	RAM_ONE.write("java -Xmx5120M  -Xms5120M -jar minecraft_server.1.8.jar nogui")
 	print ("Generated 5GB server launch scripts")
+	subprocess.call(['python', 'Extra/ram6done.py'])
 	RAM_ONE.close()
 
 
