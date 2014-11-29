@@ -1,2 +1,2 @@
 #!/bin/sh
-xterm -hold -e ./Downloader.py
+xterm -hold -e ./Extra/Downloader.py
