@@ -35,6 +35,7 @@ def RAM_ONE():
 	RAM_ONE = open("launch.sh", "w+")
 	RAM_ONE.write("java -Xmx512M -Xms512M -jar minecraft_server.1.8.jar nogui")
 	print ("Generated 512mb server launch scripts")
+	subprocess.call(['python', 'ram1done.py'])
 	RAM_ONE.close()
 
 def RAM_TWO():
